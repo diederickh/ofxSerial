@@ -3,3 +3,5 @@ ofxSerial
 As I was having problems with ofSerial, I used this code, creatd by Terraneo Federico
 so all credits go to him :)
 
+We also include "ofxSerial" which is a simple clean class which is tested
+on a Mac; this version doesn't need to use Boost.
