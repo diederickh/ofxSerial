@@ -220,6 +220,9 @@ void AsyncSerial::doWrite()
                 pimpl->writeBufferSize),
                 bind(&AsyncSerial::writeEnd, this, asio::placeholders::error));
     }
+	else {
+		std::cout << "WRITING!!!" << std::endl;
+	}
 }
 
 void AsyncSerial::writeEnd(const boost::system::error_code& error)
